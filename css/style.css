@@ -10144,3 +10144,18 @@ h6,
     border-right: none !important;
   }
 }
+.carousel-caption {
+    margin-bottom: 20px; /* Adjust this value to reduce the space */
+}
+
+.mb-md-4 {
+    margin-bottom: 1.5rem; /* Reduce this margin to tighten space */
+}
+
+.mt-2 {
+    margin-top: 0.5rem; /* Adjust if necessary to reduce space above button */
+}
+
+.pb-3 {
+    padding-bottom: 1rem; /* Adjust if necessary to reduce space below carousel */
+}
