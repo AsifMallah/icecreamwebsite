@@ -4115,6 +4115,8 @@ input[type="button"].btn-block {
   justify-content: space-between;
 }
 
+
+
 .navbar-brand {
   display: inline-block;
   padding-top: 0.3125rem;
@@ -4124,6 +4126,21 @@ input[type="button"].btn-block {
   line-height: inherit;
   white-space: nowrap;
 }
+
+.logo-img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+  .logo-img {
+    max-width: 80%;
+  }
+}
+
 
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -9934,6 +9951,7 @@ h6,
   opacity: 1;
 }
 
+/* Existing styles */
 .owl-carousel .owl-nav {
   position: absolute;
   width: 135px;
@@ -9958,6 +9976,14 @@ h6,
   border-radius: 60px;
   font-size: 30px;
 }
+
+/* Hide navigation arrows on mobile devices */
+@media (max-width: 576px) {
+  .owl-carousel .owl-nav {
+    display: none;
+  }
+}
+
 
 .service-item .service-img {
   position: relative;
@@ -10160,18 +10186,6 @@ h6,
     padding-bottom: 1rem; /* Adjust if necessary to reduce space below carousel */
 }
 
-details summary::-webkit-details-marker {
+   .owl-nav {
     display: none;
-}
-
-::-webkit-scrollbar-button:decrement,
-::-webkit-scrollbar-button:increment,
-::-moz-scrollbar-button:decrement,
-::-moz-scrollbar-button:increment {
-    width: 0px;
-}
-
-select {
-    -webkit-appearance: none;
-    width: 50px;
 }
