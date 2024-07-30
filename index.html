@@ -68,30 +68,36 @@
 
 
 <!-- Navbar Start -->
-<div class="container-fluid position-relative nav-bar p-0">
-    <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
-        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
-            <a class="navbar-brand" href="#">
-                <img src="img/samsz-logo.png" alt="samsz logo" class="logo-img">
-            </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav ml-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                </div>
-                <div class="navbar-nav mr-auto py-0">
-                    <a href="product.html" class="nav-item nav-link">Product</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                </div>
-            </div>
-        </nav>
-    </div>
-</div>
-<!-- Navbar End -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
+                <a href="index.html" class="navbar-brand d-block d-lg-none">
+                   <!-- <h1 class="m-0 display-4 text-primary"><span class="text-secondary">i</span>CREAM</h1>-->
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link ">About</a>
+                        </div>
+                 <a href="#">
+                    <h1 class="navbar-brand mx-auto">
+                        <img src="img/samsz-logo.png" alt="samsz logo" style="width: 80px; height: auto;">
+                    </h1>
+                </a>
+                    <div class="navbar-nav mr-auto py-0">
+                        <!--<a href="service.html" class="nav-item nav-link">Service</a>-->
 
+                        <a href="product.html" class="nav-item nav-link">Product</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
 
 
 
@@ -234,633 +240,260 @@
         </div>
     </div>
     <!-- Video Modal End -->
+ 
 
-
-    <!-- Products Start 1 Fruity popsicle  -->
-    <div class="container-fluid py-10">
-        <div class="container py-5">
-            <h1 class="section-title position-relative text-center mb-5">"Discover Our Unforgettable Flavours"</h1>
-            <div class="row">
-            
-                <div class="col-lg-6">
-                    <h4 class="section-title position-relative mb-5">Fruity Popsicle: "Chill with our Fruity Pops!"</h4>
-                </div>
-                <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <div class="owl-carousel product-carousel">
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/Mango.jpg" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Mango Madness</h6.5>
-                        
-                           <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                    <script>
-                        function orderNow() {
-                            const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                      const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                    window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                    </script>
-                        </div>
-
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/Strawberry.jpg" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Cola Blast</h6.5>
-
-                           <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                    <script>
-                        function orderNow() {
-                            const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                      const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                    window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                    </script>
-
-                        </div>
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/Orange.jpg" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Orange pop</h6.5>
-                            <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                                  <script>
-                            function orderNow() {
-                                const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                          const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                        window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                        </script>
-
-                        </div>
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/Watermelon.jpg" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Khatta metha Falsa</h6.5>
-
-                            <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                                  <script>
-                            function orderNow() {
-                                const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                          const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                        window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                        </script>
-
-                        </div>
-
-                         
-                    </div>
-
- <!--Load more button-->
-                <br>
-                <br>
-                                <div class="col-12 text-center">
-                    <a href="product.html" class="btn btn-primary py-3 px">Load More</a>
-                </div>
-
-                <!--Load more button-->
-                </div>
-
-            </div>
-
-            <div class="col-lg-6">
-                <br>
-                <br>
-                    <h4 class="section-title position-relative mb-5">
-                        Ice Cream Cups: "Scoop the joy!</h4>
-                </div>
-
-                <div class="col-12">
-                    <div class="owl-carousel product-carousel">
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/cups.png" style="object-fit: cover;">
-                            </div>
-
-                            <h6.5 class="font-weight-bold mb-4">strawberry </h6.5>
-                           <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                    <script>
-                        function orderNow() {
-                            const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                      const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                    window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                    </script>
-                        </div>
-
-
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/cupv.png" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">kulfa</h6.5>
-
-                           <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                    <script>
-                        function orderNow() {
-                            const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                      const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                    window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                    </script>
-
-                        </div>
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/cupm.png" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Mango</h6.5>
-                            <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                                  <script>
-                            function orderNow() {
-                                const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                          const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                        window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                        </script>
-
-                        </div>
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/cupc.png" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Chocolate</h6.5>
-                            
-                            <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                                  <script>
-                            function orderNow() {
-                                const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                          const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                        window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                        </script>
-
-                        </div>
-
-
-                    </div>
-                </div>
-                <!-- start from here-->
-
-                <!--Load more button-->
-                <br>
-                <br>
-                                <div class="col-12 text-center">
-                    <a href="product.html" class="btn btn-primary py-3 px-5">Load More</a>
-                </div>
-                <!--Load more button-->
-
-                    <div class="col-lg-6">
-                        <br>
-                        <br>
-                           <h4 class="section-title position-relative mb-5">
-                        Kulfa's Delight: "A Bite of Euphoria".!
-                    </h4>
-                </div>
-
-                <div class="col-12">
-                    <div class="owl-carousel product-carousel">
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/kulfac.png" style="object-fit: cover;">
-                            </div>
-
-                            <h6.5 class="font-weight-bold mb-4">Crunch Kulfa</h6.5>
-                           <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                    <script>
-                        function orderNow() {
-                            const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                      const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                    window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                    </script>
-                        </div>
-
-
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/kulfacr.png" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Malai Kulfa</h6.5>
-
-                           <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                    <script>
-                        function orderNow() {
-                            const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                      const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                    window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                    </script>
-
-                        </div>
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/kulfap.png" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Pista kulfa</h6.5>
-                            <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                                  <script>
-                            function orderNow() {
-                                const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                          const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                        window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                        </script>
-
-                        
-                         </div>
-                          <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/kulfaa.png" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Badami kulfa</h6.5>
-                            <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                                  <script>
-                            function orderNow() {
-                                const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                          const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                        window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                        </script>
-
-                         </div>
-                         </div>              
-
-                    </div>
-                    </div>
-              <!--Load more button-->
-                <br>
-                <br>
-                                <div class="col-12 text-center">
-                    <a href="product.html" class="btn btn-primary py-3 px-5">Load More</a>
-                </div>
+ <!-- yahaan karna hai kaam-->
 
 
 
-                <div class="col-lg-6">
-                <br>
-                <br>
-                    <h4 class="section-title position-relative mb-5">
-                        Brick Packs: Layers of Delight!</h4>
-                </div>
-
-                <div class="col-12">
-                    <div class="owl-carousel product-carousel">
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/Bricks.png" style="object-fit: cover;">
-                            </div>
-
-                            <h6.5 class="font-weight-bold mb-4">Strawberry</h6.5>
-                           <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                    <script>
-                        function orderNow() {
-                            const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                      const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                    window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                    </script>
-                        </div>
-
-
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/Brickk.png" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Kulfa</h6.5>
-
-                           <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                    <script>
-                        function orderNow() {
-                            const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                      const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                    window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                    </script>
-
-                        </div>
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/Brickc.png" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Chocolate</h6.5>
-                            <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                                  <script>
-                            function orderNow() {
-                                const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                          const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                        window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                        </script>
-
-                        </div>
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/Brickm.png" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Mango</h6.5>
-                            
-                            <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                                  <script>
-                            function orderNow() {
-                                const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                          const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                        window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                        </script>
-                             </div>
-                         </div>
-                    </div>
-              <!--Load more button-->
-              <br>
-              <br>
-                                <div class="col-12 text-center">
-                    <a href="product.html" class="btn btn-primary py-3 px-5">Load More</a>
-                </div>
-                  <div class="col-lg-6">
-                    <br>
-                    <br>
-                    <h4 class="section-title position-relative mb-5">
-                         Conezilla: "Cone of Delight</h4>
-                         </div>
-
-                <div class="col-12">
-                    <div class="owl-carousel product-carousel">
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/conev.png" style="object-fit: cover;">
-                            </div>
-
-                            <h6.5 class="font-weight-bold mb-4">Vanilla Cone</h6.5>
-                           <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                    <script>
-                        function orderNow() {
-                            const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                      const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                    window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                    </script>
-                        </div>
-
-
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/conec.png" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Chocolate Cone</h6.5>
-
-                           <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                    <script>
-                        function orderNow() {
-                            const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                      const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                    window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                    </script>
-
-                        </div>
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/conem.png" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Mango Cone</h6.5>
-                            <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                                  <script>
-                            function orderNow() {
-                                const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                          const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                        window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                        </script>
-
-                        </div>
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/cones.png" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Strawberry Cone</h6.5>
-                            
-                            <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                                  <script>
-                            function orderNow() {
-                                const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                          const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                        window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                        </script>
-                             </div>
-                         </div>
-                    </div>
-              <!--Load more button-->
-              <!--Load more button-->
-                <br>
-                <br>
-          
-               
-                <!--Load more button-->   
-                </div>
-
-
-             </div>
-                                <div class="col-12 text-center">
-                                    <br>
-                                    <br>
-                    <a href="product.html" class="btn btn-primary py-3 px-5">Load More</a>
-                </div>
-
-               <div class="col-lg-6">
-                <br>  
-                <br>
-                  <h4 class="section-title position-relative mb-5">
-            Ice Cream Box: "Box of bliss!" <span style="color: deepskyblue;">Coming soon</span>
-                            </h4>
-                </div>
-
-                <div class="col-12">
-                    <div class="owl-carousel product-carousel">
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/Boxv.png" style="object-fit: cover;">
-                            </div>
-
-                            <h6.5 class="font-weight-bold mb-4">Vanilla Ice Cream</h6.5>
-                           <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                    <script>
-                        function orderNow() {
-                            const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                      const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                    window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                    </script>
-                        </div>
-
-
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/Boxc.png" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Chocolate Ice Cream</h6.5>
-
-                           <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                    <script>
-                        function orderNow() {
-                            const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                      const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                    window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                    </script>
-
-                        </div>
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/Boxm.png" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Mango Ice Cream</h6.5>
-                            <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                                  <script>
-                            function orderNow() {
-                                const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                          const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                        window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                        </script>
-
-                        </div>
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h5 class="font-weight-bold text-white mb-0">N/A</h5>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/Boxk.png" style="object-fit: cover;">
-                            </div>
-                            <h6.5 class="font-weight-bold mb-4">Kulfa ice cream</h6.5>
-                            
-                            <button class="btn btn-sm btn-secondary" onclick="orderNow()">Order Now</button>
-                                  <script>
-                            function orderNow() {
-                                const phoneNumber = "+923112811272"; // Replace with your WhatsApp number
-                          const message = encodeURIComponent("Hello, I would like to order some ice cream.");
-                        window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`, '_blank');}
-                        </script>
-                             </div>
-                         </div>
-                    </div>
-              <!--Load more button-->
-              
-                <br>
-                <br>
-                                <div class="col-12 text-center">
-                    <a href="product.html" class="btn btn-primary py-3 px-5">Load More</a>
-                </div>
-               
-                <!--Load more button-->   
-                </div>
-                             
+<!-- Portfolio Start -->
+<div class="container-fluid my-5 py-5 px-0">
+    <div class="row justify-content-center m-0">
+        <div class="col-lg-5">
+            <h1 class="section-title position-relative text-center mb-4">Delicious Ice Cream Made From Our Very Own Organic Milk</h1>
         </div>
+    </div>
+    <div class="row m-0 portfolio-container">
+        <!-- Portfolio items -->
+    </div>
+</div>
+<!-- Portfolio End -->
+
+<!-- Products Start 01-->
+<div class="container-fluid py-5">
+    <div class="container py-4">
+        <!-- Centered Title -->
+        <div class="row justify-content-center mb-4">    
+            <div class="col-lg-6 text-center">
+                <h4 class="section-title mb-4">Fruity Popsicle: "Chill with our Fruity Pops!"</h4>
+            </div>
+        </div>
+        <!-- Centered Product Item -->
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">N/A</h4>
+                    </div>
+                    <div class="position-relative bg-primary rounded-circle mb-4 p-3" style="width: 150px; height: 150px;">
+                        <img class="rounded-circle w-100 h-100" src="img/Mango.jpg" style="object-fit: cover;">
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Mango Bite</h5>
+                    <!-- Use a link for navigation -->
+                    <a href="product.html" class="btn btn-sm btn-secondary">Load More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Products End -->
+
+<!-- Products Start 02-->
+<div class="container-fluid py-4">
+    <div class="container py-4">
+        <!-- Centered Title -->
+        <div class="row justify-content-center mb-4">    
+            <div class="col-lg-6 text-center">
+                <h4 class="section-title mb-4">Ice Cream Cups: "Scoop the joy!"</h4>
+            </div>
+        </div>
+        <!-- Centered Product Item -->
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">N/A</h4>
+                    </div>
+                    <div class="position-relative bg-primary rounded-circle mb-4 p-3" style="width: 150px; height: 150px;">
+                        <img class="rounded-circle w-100 h-100" src="img/cups.png" style="object-fit: cover;">
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Strawberry</h5>
+                    <!-- Use a link for navigation -->
+                    <a href="product.html" class="btn btn-sm btn-secondary">Load More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Products End -->
+
+<!-- Products Start 03-->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <!-- Centered Title -->
+        <div class="row justify-content-center mb-4">    
+            <div class="col-lg-6 text-center">
+                <h4 class="section-title mb-4">Kulfa's Delight: "A Bite of Euphoria".!</h4>
+            </div>
+        </div>
+        <!-- Centered Product Item -->
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">N/A</h4>
+                    </div>
+                    <div class="position-relative bg-primary rounded-circle mb-4 p-3" style="width: 150px; height: 150px;">
+                        <img class="rounded-circle w-100 h-100" src="img/kulfaa.png" style="object-fit: cover;">
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Badami kulfa</h5>
+                    <!-- Use a link for navigation -->
+                    <a href="product.html" class="btn btn-sm btn-secondary">Load More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Products End -->
+
+<!-- Products Start 04-->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <!-- Centered Title -->
+        <div class="row justify-content-center mb-4">    
+            <div class="col-lg-6 text-center">
+                <h4 class="section-title mb-4">Brick Packs: Layers of Delight!</h4>
+            </div>
+        </div>
+        <!-- Centered Product Item -->
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">N/A</h4>
+                    </div>
+                    <div class="position-relative bg-primary rounded-circle mb-4 p-3" style="width: 150px; height: 150px;">
+                        <img class="rounded-circle w-100 h-100" src="img/Brickc.png" style="object-fit: cover;">
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Chocolate</h5>
+                    <!-- Use a link for navigation -->
+                    <a href="product.html" class="btn btn-sm btn-secondary">Load More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Products End -->
+
+<!-- Products Start 05-->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <!-- Centered Title -->
+        <div class="row justify-content-center mb-4">    
+            <div class="col-lg-6 text-center">
+                <h4 class="section-title mb-4">Conezilla: "Cone of Delight</h4>
+            </div>
+        </div>
+        <!-- Centered Product Item -->
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">N/A</h4>
+                    </div>
+                    <div class="position-relative bg-primary rounded-circle mb-4 p-3" style="width: 150px; height: 150px;">
+                        <img class="rounded-circle w-100 h-100" src="img/conev.png" style="object-fit: cover;">
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Vanilla Cone</h5>
+                    <!-- Use a link for navigation -->
+                    <a href="product.html" class="btn btn-sm btn-secondary">Load More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Products End -->
+
+<!-- Products Start 06-->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <!-- Centered Title -->
+        <div class="row justify-content-center mb-4">    
+            <div class="col-lg-6 text-center">
+                <h4 class="section-title mb-4">Ice Cream Box: "Box of bliss!" Coming soon</h4>
+            </div>
+        </div>
+        <!-- Centered Product Item -->
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">N/A</h4>
+                    </div>
+                    <div class="position-relative bg-primary rounded-circle mb-4 p-3" style="width: 150px; height: 150px;">
+                        <img class="rounded-circle w-100 h-100" src="img/Boxm.png" style="object-fit: cover;">
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Mango</h5>
+                    <!-- Use a link for navigation -->
+                    <a href="product.html" class="btn btn-sm btn-secondary">Load More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Products End -->   
 
     <!-- Services Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-6">
+                
                     <h1 class="section-title position-relative mb-5">Best Services We Provide For Our Clients</h1>
                 </div>
+                
                 <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
             </div>
+
             <div class="row">
                 <div class="col-12">
                     <div class="owl-carousel service-carousel">
                         <div class="service-item">
                             <div class="service-img mx-auto">
-                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/Boxc.png" style="object-fit: cover;">
+                                <img class="rounded-circle w-80 h-80 bg-light p-3" src="img/HQ.png" style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Premium Quality Ingredients</h5>
-                                <p>At Samsz Ice Cream, we use only the finest organic ingredients to create our delicious flavors. Each scoop is crafted with care to ensure the highest quality and taste.</p>
-                                <a href="product.html" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Quality Maintain</h5>
+                                <p>At SamSZ Ice Cream, we prioritize quality above all.
+Our ingredients are sourced from the finest suppliers, ensuring every bite is pure delight.
+We are committed to maintaining the highest standards in every scoop we serve.</p>
+                                <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
                             </div>
                         </div>
                         <div class="service-item">
                             <div class="service-img mx-auto">
-                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/cups.png" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/FOOD.png" style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Wide Variety of Flavors</h5>
-                                <p>We offer an extensive range of ice cream flavors to cater to every taste. From classic vanilla and chocolate to exotic tropical blends, there's something for everyone to enjoy.</p>
-                                <a href="product.html" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Individual Approach</h5>
+                                <p>At SamSZ Ice Cream, every flavor is crafted with meticulous care.
+                                We select only the finest ingredients to ensure a premium experience in every scoop.
+                                Our dedication to quality guarantees indulgence with every bite.</p>
+                                <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
                             </div>
                         </div>
                         <div class="service-item">
                             <div class="service-img mx-auto">
-                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/conem.png" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/HY.png" style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Customizable Orders</h5>
-                                <p>Personalize your ice cream experience with our customizable options. Choose your favorite base flavors, mix-ins, and toppings to create a unique treat tailored just for you.</p>
-                                <a href="product.html" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">food safety and hygiene</h5>
+                                <p>At SamSZ Ice Cream, we prioritize both hygiene and quality in every product.
+                                    Our ingredients are carefully selected and our processes meticulously maintained for your safety.
+                                    Experience the finest flavors delivered with exceptional care right to your doorstep.</p>
+                                <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
                             </div>
                         </div>
                         <div class="service-item">
                             <div class="service-img mx-auto">
-                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/Strawberry.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/Bike.png" style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Fast and Friendly Service</h5>
-                                <p>Our team is dedicated to providing prompt and friendly service. Whether you're visiting our shop or ordering online, we strive to make your experience smooth and enjoyable.</p>
-                                <a href="product.html" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Deliver to your Doorstep</h5>
+                                <p>At SamSZ Ice Cream, we ensure top-tier quality in every scoop.
+                                    Using only the finest ingredients, we guarantee a premium taste experience.
+                                    Enjoy our delightful flavors delivered right to your doorstep.</p>
+                                <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -869,66 +502,6 @@
         </div>
     </div>
     <!-- Services End -->
-
-<!-- Portfolio Start -->
-<div class="container-fluid my-5 py-5 px-0">
-    <div class="row justify-content-center m-0">
-        <div class="col-lg-5">
-            <h1 class="section-title position-relative text-center mb-5">Delicious Ice Cream Made From Our Very Own Organic Milk</h1>
-        </div>
-    </div>
-    <div class="row m-0 portfolio-container">
-        <div class="col-lg-4 col-md-6 p-0 portfolio-item">
-            <div class="position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="img/conev.png" alt="Ice Cream Cone">
-                <a class="portfolio-btn" href="img/conev.png" data-lightbox="portfolio">
-                    <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                </a>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-6 p-0 portfolio-item">
-            <div class="position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="img/Boxv.png" alt="Ice Cream Box">
-                <a class="portfolio-btn" href="img/Boxv.png" data-lightbox="portfolio">
-                    <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                </a>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-6 p-0 portfolio-item">
-            <div class="position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="img/cups.png" alt="Ice Cream Cups">
-                <a class="portfolio-btn" href="img/cups.png" data-lightbox="portfolio">
-                    <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                </a>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-6 p-0 portfolio-item">
-            <div class="position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="img/cupm.png" alt="Ice Cream Cup">
-                <a class="portfolio-btn" href="img/cupm.png" data-lightbox="portfolio">
-                    <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                </a>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-6 p-0 portfolio-item">
-            <div class="position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="img/cones.png" alt="Ice Cream Cones">
-                <a class="portfolio-btn" href="img/cones.png" data-lightbox="portfolio">
-                    <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                </a>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-6 p-0 portfolio-item">
-            <div class="position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="img/Boxc.png" alt="Ice Cream Box">
-                <a class="portfolio-btn" href="img/Boxc.png" data-lightbox="portfolio">
-                    <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Portfolio End -->
 
     
 
@@ -1073,7 +646,7 @@
                         <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
                             <h5 class="font-weight-bold mb-2">Get In Touch</h5>
                             <p class="mb-2">Factory Outlet</p>
-                            <p class="mb-2">Mehmoodabad Karachi</p>
+                            <p class="mb-2">Karachi Pakistan</p>
                             <p class="mb-0">+92-311-2811272</p>
                         </div>
                         <div class="col-sm-6 text-center text-sm-left">
