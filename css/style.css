@@ -1,10 +1,8 @@
-/******* Bootstrap Theming ********/
-/*!
- * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9849,6 +9847,11 @@ h6,
   transform: translateX(-50%);
 }
 
+.section-title {
+  text-align: center;
+}
+
+
 .fruity-title {
   position: relative;
   display: inline-block;
@@ -10181,3 +10184,246 @@ h6,
     border-right: none !important;
   }
 }
+
+
+.custom-img-responsive {
+    width: 100%; /* Default for small screens */
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .custom-img-responsive {
+        width: 70%; /* Medium screens */
+    }
+}
+
+@media (min-width: 992px) {
+    .custom-img-responsive {
+        width: 50%; /* Large screens */
+    }
+}
+
+
+.rounded-corners {
+    border-radius: 50px; /* Adjust value as needed */
+}
+
+
+
+
+ .product-card {
+    width: 320px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-bottom: 1.5rem;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .product-card:hover {
+    transform: scale(1.02);
+  }
+
+  .box-up {
+    background: #fff;
+    padding: 20px;
+  }
+
+  .img {
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+
+  .product-card:hover .img {
+    transform: scale(1.05);
+  }
+
+  .img-info {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .info-inner {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .a-size {
+    font-size: 14px;
+    color: #888;
+  }
+
+  .box-down {
+    background: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .cart {
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .price {
+    display: block;
+    font-size: 20px;
+    color: #28a745;
+    font-weight: bold;
+  }
+
+  .add-to-cart {
+    background: #007bff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: white;
+    transition: background 0.3s ease;
+  }
+
+  .add-to-cart:hover {
+    background: #0056b3;
+  }
+
+  .hidden-flavors {
+    max-height: 0;
+    overflow: hidden;
+    background: #ffe6cc;
+    transition: max-height 0.5s ease, padding 0.3s ease;
+    padding: 0 20px;
+  }
+
+  .product-card.active .hidden-flavors {
+    max-height: 300px;
+    padding: 15px 20px;
+  }
+
+  .hidden-flavors ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    font-size: 15px;
+    color: #333;
+  }
+
+  .hidden-flavors li {
+    padding: 6px 0;
+    border-bottom: 1px dashed #ccc;
+  }
+
+
+.horizontal-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+
+/* ===== Custom Horizontal Product Row Layout ===== */
+
+.product-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding: 0.5rem;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Ensure buttons are not cut off or pushed out */
+.product-row > button {
+  flex-shrink: 0;
+  min-width: 36px;
+  height: 36px;
+  padding: 0 8px;
+  margin: 0;
+  z-index: 1;
+}
+
+/* Make product cards responsive and closer to buttons */
+.product-card {
+  flex-shrink: 0;
+  min-width: 180px;
+  max-width: 220px;
+  margin: 0;
+  text-align: center;
+}
+
+/* Prevent layout bugs from other wrappers */
+.el-wrapper {
+  position: relative;
+  z-index: 0;
+}
+
+/* Optional: Tweak image responsiveness */
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Fix spacing on mobile for containers */
+@media (max-width: 576px) {
+  .container,
+  .container-fluid {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+  .product-row {
+    gap: 0.4rem;
+    padding: 0.5rem 0.3rem;
+  }
+
+  .product-card {
+    min-width: 160px;
+    max-width: 200px;
+  }
+}
+
+
+  .flavor-buttons {
+      margin-bottom: 20px;
+      text-align: center;
+      transition: all 0.5s ease-in-out;
+    }
+    .flavor-buttons button {
+      margin: 0 8px;
+      transition: background-color 0.3s ease;
+    }
+    .product-card {
+      transition: opacity 0.5s ease-in-out, transform 0.5s ease;
+    }
+    .product-card.fade {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+
+        .product-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .el-wrapper {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1rem;
+      max-width: 250px;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .section {
+      display: none;
+    }
+    .section.active {
+      display: block;
+    }
